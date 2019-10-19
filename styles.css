@@ -46,9 +46,24 @@ h5{
     background-color:rgb(231, 9, 54) ;
 }
 
+
 #lgBtnDiv{
  
     position: relative;
     right: 130px;
+
+
+.start {
+    width: 8%;
+    height: 30px;
+
+}
+/* #endDate {
+    position: absolute;
+    right: 80%;
+
+} */
+.start {
+    margin-left: 15px;
 
 }
