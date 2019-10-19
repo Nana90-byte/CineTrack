@@ -4,6 +4,17 @@
 
    
 }
+.logoContainer2{
+    text-align: center; 
+    background-color: black;
+    padding: 60px;
+}
+
+.callout{
+ background-color: black;
+ color: white;
+
+}
 .tagName{
     color: white;
     font-family: cursive;
@@ -20,9 +31,27 @@
    align-content: center;
 }
 
-.btnDiv{
-    right: 20%;
+
+
+h5{
+    text-align: center;
 }
+#random{
+    position: relative;
+    right: 180px;
+    
+}
+
+#lgBtn{
+    background-color:rgb(231, 9, 54) ;
+}
+
+
+#lgBtnDiv{
+ 
+    position: relative;
+    right: 130px;
+
 
 .start {
     width: 8%;
@@ -36,4 +65,5 @@
 } */
 .start {
     margin-left: 15px;
+
 }
