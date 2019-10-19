@@ -23,3 +23,17 @@
 .btnDiv{
     right: 20%;
 }
+
+.start {
+    width: 8%;
+    height: 30px;
+
+}
+/* #endDate {
+    position: absolute;
+    right: 80%;
+
+} */
+.start {
+    margin-left: 15px;
+}
