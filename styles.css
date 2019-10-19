@@ -1,0 +1,25 @@
+.logoContainer{
+    text-align: center; 
+    background-color: black;
+
+   
+}
+.tagName{
+    color: white;
+    font-family: cursive;
+    font-size: 15pt;
+}
+.yearRange{
+    text-align: center;
+}
+.slider{
+    width: 80%;
+    margin-left: 10%;
+}
+.sliderContainer{
+   align-content: center;
+}
+
+.btnDiv{
+    right: 20%;
+}
