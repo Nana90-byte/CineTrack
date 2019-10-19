@@ -1,0 +1,95 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flix Finder</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="title-bar">
+      <div class="title-bar-left">
+   
+        <span class="title-bar-title">Flick Finder</span>
+      </div>
+      <div class="title-bar-right">
+        <button class="menu-icon" type="button"></button>
+      </div>
+    </div>
+
+   <div class="logoContainer">
+    <p class="logo"><a href="https://fontmeme.com/netflix-font/"><img src="https://fontmeme.com/permalink/191017/9b0bc37e4667dccfcbe3914d10afb693.png" alt="netflix-font" border="0"></a></p>
+     <p class="tagName">With over 5000 titles to choose from, What will you watch?</p>
+     </div>
+
+    <ul class="accordion" data-accordion>
+        <li class="accordion-item is-active" data-accordion-item>
+          <!-- Accordion tab title -->
+          <a href="#" class="accordion-title"> Choices</a>
+      
+          <!-- Accordion tab content: it would start in the open state due to using the `is-active` state class. -->
+          <div class="accordion-content" data-tab-content>
+            <p>Choose Genre</p>
+            <select name="genre" id="genre">
+              <option class="genre">Genre</option>
+              <option class="comedy">Comedy</option>
+              <option class="action">Action</option>
+              <option class="drama">Drama</option>
+              <option class="documentaries">Documentaries</option>
+              <option class="Horror">Horror</option>
+
+            </select>
+          </div>
+
+              <div class="accordion-content" data-tab-content>
+              <p>Movie or Series</p>
+              <select name="type" id="type">
+                <option class="movieChoice">Movie</option>
+                <option class="seriesChoice">Series</option>
+                </select>
+          </div>
+        
+          <div class="accordion-content" data-tab-content>
+              <p>Rating</p>
+              <select name="rating" id="rating">
+                <option class="g">G</option>
+                <option class="pg">PG</option>
+                <option class="pg13">PG-13</option>
+                <option class="r">R</option>
+                <option class="nc-17">NC-17</option>
+                </select>
+          </div>
+
+<div class="sliderContainer">
+        <p class="yearRange">Choose Year Range</p>
+    <div class="slider" data-slider data-initial-start="1920" data-initial-end="2019">
+        <span class="slider-handle" data-slider-handle role="slider" tabindex="1920"></span>
+        <span class="slider-fill" data-slider-fill></span>
+        <span class="slider-handle" data-slider-handle role="slider" tabindex="2019"></span>
+       
+            <!-- <input type="number" id="sliderOutput2"> -->
+          </div>
+        <input type="hidden">
+        <input type="hidden">
+      </div>
+      </div>
+
+     <div id="btnDiv">
+          <a class="button alert" href="#" id="button">Find My Fuckin Movie</a>
+      </div>
+
+      
+
+         
+            
+
+        
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
