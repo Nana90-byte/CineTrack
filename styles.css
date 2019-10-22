@@ -51,7 +51,7 @@ h5{
  
     position: relative;
     right: 130px;
-
+}
 
 .start {
     width: 8%;
@@ -66,4 +66,8 @@ h5{
 .start {
     margin-left: 15px;
 
+}
+
+#button{
+    margin-left: 30px;
 }
